@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Celtics Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #eeeeee;
+        }
+
+        header {
+            background-color: #007A33;
+            color: white;
+            padding: 20px;
+            display: flex;
+            gap: 20px;
+        }
+
+        h1 {
+            margin: 0;
+        }
+
+        input {
+            width: 500px;
+            padding: 10px;
+        }
+
+        button {
+            padding: 10px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        nav {
+            background-color: #004F2D;
+            padding: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        nav button {
+            background-color: #004F2D;
+            color: white;
+            border: 1px solid white;
+        }
+
+        nav button:hover {
+            background-color: #007A33;
+        }
+
+        .main {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .sidething {
+            background-color: white;
+            padding: 15px;
+            width: 200px;
+            border: 1px solid #cccccc;
+        }
+
+        .products {
+            display: flex;
+            gap: 10px;
+        }
+
+        .product {
+            background-color: white;
+            padding: 10px;
+            width: 180px;
+            border: 1px solid #cccccc;
+        }
+
+        .product img {
+            width: 180px;
+            height: 180px;
+        }
+
+        .product h2 {
+            font-size: 18px;
+        }
+
+        .price {
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .stars {
+            color: orange;
+        }
+
+        .cart {
+            background-color: #F7C600;
+            width: 100%;
+        }
+
+        footer {
+            background-color: #004F2D;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        input[type="discount"] {
+border: 0px solid
+green;
+}
+        h1 {
+font-style: italic;
+}
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>CELTICS</h1>
+
+        <input type="text">
+    
+        <input type="text">
+
+        <button>Enter</button>
+
+        <p>Help</p>
+
+        <p>Cart</p>
+
+        <p>Account</p>
+
+
+    </header>
+
+    <nav>
+
+        <button>All</button>
+        <button>Jerseys</button>
+        <button>Shirts</button>
+        <button>Hats</button>
+        <button>Hoodies</button>
+        <button>Balls</button>
+        <button>Others</button>
+
+    </nav>
+
+    <div class="main">
+
+        <div class="side thing">
+
+            <h3>Items</h3>
+
+            <ul>
+                <li>Jerseys</li>
+                <li>Shirts</li>
+                <li>Hats</li>
+                <li>Hoodies</li>
+                <li>Basketballs</li>
+            </ul>
+
+            <h3>Price</h3>
+
+            <p>Under $25</p>
+            <p>$25 - $50</p>
+            <p>$50 - $100</p>
+            <p>Over $100</p>
+
+            <h3>Matches</h3>
+            <p>Download Amazon Prime to watch all of the Celtics games!</p>
+            
+
+        </div>
+
+        <div>
+
+            <h1>Boston Celtics WebStore</h1>
+
+            <p>Shop Celtics jerseys, shirts, hats and more!</p>
+
+            <div class="products">
+
+                <div class="product">
+
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3LKl_v2rF0YZ1UC6MhMfuA7Y0BeAwJX6YpjtuXY8Gk0FP5WX06xolpL4&s=10" alt="Celtics Jersey">
+
+                    <h2>Celtics Jersey</h2>
+
+                    <p class="stars">★★★★★</p>
+
+                    <p>Boston Celtics Green Jersey</p>
+
+                    <p class="price">$79.99</p>
+
+                    <button class="cart">Add to Cart</button>
+
+                </div>
+
+                <div class="product">
+
+                    <img src="https://cdn.media.amplience.net/s/hottopic/20240299_hi" alt="Celtics Shirt">
+
+                    <h2>Celtics T-Shirt</h2>
+
+                    <p class="stars">★★★★★</p>
+
+                    <p>Classic Celtics Fan Shirt</p>
+
+                    <p class="price">$29.99</p>
+
+                    <button class="cart">Add to Cart</button>
+
+                </div>
+
+                <div class="product">
+
+                    <img src="https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/d94df89e-78fc-4c05-ad2f-890ebb9e754b/boston-celtics-courtside-mens-nba-fleece-pullover-hoodie-27kXGn.png" alt="Celtics Hoodie">
+
+                    <h2>Celtics Hoodie</h2>
+
+                    <p class="stars">★★★★☆</p>
+
+                    <p>White Celtics Hoodie</p>
+
+                    <p class="price">$49.99</p>
+
+                    <button class="cart">Add to Cart</button>
+
+                </div>
+
+                <div class="product">
+
+                    <img src="https://cdn11.bigcommerce.com/s-b0wguna27q/images/stencil/2560w/products/10753/30813/Celtics47StrandWhiteTruckerCap1200__38356.1773598628.jpg?c=2" alt="Celtics Hat">
+
+                    <h2>Celtics Hat</h2>
+
+                    <p class="stars">★★★★★</p>
+
+                    <p>Classic Celtics Green Hat</p>
+
+                    <p class="price">$24.99</p>
+
+                    <button class="cart">Add to Cart</button>
+
+                </div>
+                
+                <div class="product">
+
+                    <img src="https://www.wilsonloja.com.br/cdn/shop/files/WTB1300XBBOS.jpg?v=1699643676&width=1200" alt="Celtics Hat">
+
+                    <h2>Celtics Size 5 Ball</h2>
+
+                    <p class="stars">★★★★☆</p>
+
+                    <p>Classic Celtics Dark Basketball</p>
+
+                    <p class="price">$29.99</p>
+
+                    <button class="cart">Add to Cart</button>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <h2>Boston Celtics Online WebStore</h2>
+
+        <p>Go Celtics!</p>
+
+    </footer>
+</body>
+</html>
